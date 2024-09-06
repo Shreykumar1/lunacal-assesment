@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+.about-header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+
+}
+
+.mdoc{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mdoc::-webkit-scrollbar {
+
+  width: 8px;
+}
+
+.mdoc::-webkit-scrollbar-track {
+  background: #E8E8E8;
+  border-radius: 10px;
+  display: none;
+
+}
+
+.mdoc::-webkit-scrollbar-thumb {
+  position: absolute;
+  right: 0;
+  background: #939CA3;
+  background: linear-gradient(177.32deg, #888989 5.6%, #4A4E54 93.28%);
+
+  border-radius: 10px;
+  max-height: 2px;
+  display: none;
+
+}
+
+
+
+
+
+button {
+  position: relative;
+  overflow: hidden;
+}
+
+button span:first-child {
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-in-out;
+}
+
+button:hover span:first-child {
+  transform: translateX(0);
+}
+
+
+
+
+.button-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.button-slide {
+  position: relative;
+  overflow: hidden;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.button-slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(230, 101, 16, 0.7), rgba(75, 82, 95, 0.7));
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+  z-index: 0;
+}
+
+.button-slide.active::before {
+  transform: translateX(0);
+}
+
+.button-slide span {
+  position: relative;
+  z-index: 10;
+}
+
+.indicator {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background-color: #3c414a;
+  transition: width 0.5s ease, left 0.5s ease;
+}
