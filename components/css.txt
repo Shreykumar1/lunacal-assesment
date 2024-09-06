@@ -1,0 +1,54 @@
+/* Component 313 */
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 518px;
+top: 48px;
+
+
+
+/* Ellipse 36 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%);
+box-shadow: -5px -3px 30px -10px #96BEE7, 4px 5px 30px 5px #101213;
+
+
+/* Group 28 */
+
+position: absolute;
+left: 34.23%;
+right: 34.23%;
+top: 34.17%;
+bottom: 34.72%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 34.23%;
+right: 34.23%;
+top: 49.73%;
+bottom: 50.27%;
+
+/* Gray */
+border: 2px solid #6F787C;
+
+
+/* Vector */
+
+position: absolute;
+left: 34.23%;
+right: 50.22%;
+top: 34.17%;
+bottom: 34.72%;
+
+/* Gray */
+border: 2px solid #6F787C;
